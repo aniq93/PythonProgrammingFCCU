@@ -97,4 +97,65 @@ Then, the output of the program should be:
 # print(outer)
 
 
+'''
+UML diagram
+
+- Unified Modeling Language
+
+    Class Diagram ***
+    Sequence Diagram
+    Gant Charts
+    Use Case 
+ 
+ SE                         SE                   # Coding (CS)
+Requirement Gathering  -> Designing System -> Implementing System 
+    SE                 
+-> Testing System -> Deploying System 
+
+# Visualize 
+
+
+Relationships  # Dependency
+
+    - Composition 
+
+         class A is completly dependent upon class B
+
+         class A we have to create object of class B 
+
+         A --<> B
+
+         Team                     Players             Coaches
+
+
+    #     Manchester City
+    # Coach of Manchester City
+    #       Aqib Javed
+
+
+
+        class A can exist on its own
+        class B can exist on its own
+
+
+        class A goes to class B as an object and is partial 
+        dependent
+
+        C.Ronaldo              Manchester United [,...]
+                               Real Madrid[,...]
+                               Juventes [,...]
+                               Al Nasser[,...]    coach of Al Nasser
+
+
+
+
+
+
+
+
+
+
+'''
+
+
 
