@@ -1,3 +1,81 @@
+'''
+
+Encapulation : Wrapping of data and methods into a single unit with protection
+Inheritance : Inheriting properties of parent class
+Polymorphism : Many forms
+Relationalship : Association, Aggregation, Composition and Inheritance
+
+
+
+Abstraction : Hiding the implementation details and showing only the functionality
+
+What is abstraction? 
+Answer: Abstraction is a process of hiding the IMPLEMENTATION DETAIL
+        and SHOWING only FUNCTIONALITY to the user.
+
+        We have just the IDEA
+        Not Conclusion
+
+
+Absrtact Art 
+
+Base Enemy:  Health, Damage, Movement, Attack  (Abstract)
+
+
+Minnion(Base Enemy): Health(100), Damage(10), Movement(slow), Attack(2 moves) , multiply
+
+Giant(Base Enemy): Health(500), Damage(50), Movement(medium), Attack(3 moves) , Grow
+
+Boss(Base Enemy): Health(1000), Damage(100), Movement(fast), Attack(5 moves) , Power up eating minions
+
+
+Abstract Class:
+- Abstract class is a class that contains one or more abstract methods
+  abstract method: method that is declared but not implemented
+
+
+
+Social meadia:
+      @abstractmethod
+    - login credentials
+      @abstractmethod
+    - friends/followers
+      @abstractmethod
+    - chat
+
+Facebook(Social media):
+    - login credentials
+    - friends/followers
+    - chat
+    
+Instgram(Social media):
+    - login credentials
+    - friends/followers
+    - chat
+
+        
+X(Social media):
+    - login credentials
+    - friends/followers
+    - chat
+    
+
+
+Interface:
+- Interface is a class that contains only abstract methods
+
+Interface is like a strict contract
+
+
+
+Abstract class vs Interface
+- Abstract class can have abstract and non abstract methods
+- Interface can have only abstract methods
+
+
+
+'''
+
 #from abc import ABC, abstractmethod     # abstract base class
 
 # class Vehicle(ABC):
